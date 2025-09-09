@@ -9,7 +9,7 @@ int main()
     scanf("%s", t);
     
     printf("entrer la 2eme : ");
-    scanf("%s", l);
+    scanf(" %s", l);
     
     printf("result : %s", strcat(t, l));
     
