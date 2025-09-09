@@ -6,7 +6,8 @@ int main()
     int i = 0;
     printf("entrer fgg : ");
 fgets(t,sizeof(t),stdin); 
-   while(t[i]!='\0'  && t[i]!='\n'){
+   while(t[i]!='\0'  && t[i]!='\n')
+   {
        longeur++;
        i++;
    }

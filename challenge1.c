@@ -4,7 +4,7 @@ int main()
     char t[20];
 
     printf("entrer fgg : ");
-    scanf("%s", t);
+    scanf("%c", t);
     for (int i = 0;  t[i] != '\0'; i++)
     {
         printf("%c\n", t[i]);
